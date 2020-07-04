@@ -1,6 +1,9 @@
 ---
-layout: post
-title:  "基础技能课堂"
+title: "基础技能课堂"
+toc: true
+comments: false
+image: images/some_folder/your_image.png
+categories: [fastpages, jupyter]
 ---
 
 **建设中**
