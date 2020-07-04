@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/laojiuketang/feed.xml" rel="self" type="application/atom+xml" /><link href="/laojiuketang/" rel="alternate" type="text/html" /><updated>2020-07-04T05:52:28-05:00</updated><id>/laojiuketang/feed.xml</id><title type="html">老九课堂</title><subtitle>微信公众号：九章工作室</subtitle><entry><title type="html">六脉神剑之一关冲剑平面法向量的计算方法</title><link href="/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html" rel="alternate" type="text/html" title="六脉神剑之一关冲剑平面法向量的计算方法" /><published>2020-07-03T00:00:00-05:00</published><updated>2020-07-03T00:00:00-05:00</updated><id>/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95</id><content type="html" xml:base="/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/laojiuketang/feed.xml" rel="self" type="application/atom+xml" /><link href="/laojiuketang/" rel="alternate" type="text/html" /><updated>2020-07-04T05:52:54-05:00</updated><id>/laojiuketang/feed.xml</id><title type="html">老九课堂</title><subtitle>微信公众号：九章工作室</subtitle><entry><title type="html">六脉神剑之一关冲剑平面法向量的计算方法</title><link href="/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html" rel="alternate" type="text/html" title="六脉神剑之一关冲剑平面法向量的计算方法" /><published>2020-07-03T00:00:00-05:00</published><updated>2020-07-03T00:00:00-05:00</updated><id>/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95</id><content type="html" xml:base="/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html">&lt;blockquote&gt;
   &lt;p&gt;老九课堂 练成高手 超越学霸&lt;/p&gt;
 
   &lt;p&gt;&lt;strong&gt;前 言&lt;/strong&gt;&lt;/p&gt;
@@ -714,115 +714,7 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;3&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">老九课堂 练成高手 超越学霸 前 言 “六脉神剑”是金庸武侠小说《天龙八部》中的武功，堪称大理段氏乃至金庸武学世界中最具杀伤力之无上神功，由大理开国皇帝段思平所创。 “六脉神剑”，并非真剑，是以浑厚内力为基础，将六种内力由指尖隔空激发出去，有质无形，是一套将剑意转化为剑气的高深武学。出剑时剑气急如电闪，迅猛绝伦；以气走剑杀人于无形，堪称剑中无敌。 数学中的“六脉神剑”，是我们高中教材中没有的内容，但可以用高中知识推导并使用。学好它，不仅能解决高中的数学中难度较大的问题，而且能快速解答有关高考试题，让你在高考的千军万马中过关斩将，脱颖而出，金榜题名。 剑法名称 【少商剑】剑路雄劲，颇有石破天惊之势</summary></entry><entry><title type="html">Fastpages汉化版使用说明</title><link href="/laojiuketang/2020/04/14/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html" rel="alternate" type="text/html" title="Fastpages汉化版使用说明" /><published>2020-04-14T00:00:00-05:00</published><updated>2020-04-14T00:00:00-05:00</updated><id>/laojiuketang/2020/04/14/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E</id><content type="html" xml:base="/laojiuketang/2020/04/14/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html">&lt;p&gt;1 登录自己的github账户，访问：&lt;a href=&quot;https://github.com/EasonQYS/fastpagesJupyter&quot;&gt;https://github.com/EasonQYS/fastpagesJupyter&lt;/a&gt; ，找到下面这个蓝色的字并点击，&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image1.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;在自己的账户下生成一个仓库（仓库名不能使用&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image2.png&quot; alt=&quot;&quot; /&gt;），用于运行网页。&lt;/p&gt;
-
-&lt;p&gt;2 稍等片刻（约30秒），你的github邮箱会收到一封邮件，指导你接下来的步骤。由于邮件是英文版，请参考README文档。&lt;/p&gt;
-
-&lt;p&gt;操作过程截图：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image3.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image6.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;点击Add key后需要输入github密码。&lt;/p&gt;
-
-&lt;p&gt;3查看Actions，绿色对勾表示初始化完成。（这一步没有意义）&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image7.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;4在&lt;a href=&quot;https://github.com/EasonQYS/fastpagesJupyter/settings&quot;&gt;https://github.com/EasonQYS/fastpagesJupyter/settings&lt;/a&gt; settings页面下滑找到&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image8.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;选择master branch，等待&lt;a href=&quot;https://github.com/EasonQYS/fastpagesJupyter/actions&quot;&gt;https://github.com/EasonQYS/fastpagesJupyter/actions&lt;/a&gt; 显示成功。&lt;/p&gt;
-
-&lt;p&gt;5如果运行正常，会生成一个新的branch，名为gh-pages。需要将网页改至该路径。（若干没有，可以先进行后续操作。稍后在回来做这一步）&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image9.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;至此，网站已经可以显示了。&lt;/p&gt;
-
-&lt;p&gt;6 修改_config.yml&lt;/p&gt;
-
-&lt;p&gt;为了让页面显示更美观，以及修改超链接为正确内容，我们可能要做一下修改。&lt;/p&gt;
-
-&lt;p&gt;需要修改的部分均已给出中文标注。&lt;/p&gt;
-
-&lt;p&gt;相关修改参考见截图&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;若要修改网页标题，则修改&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image11.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;若要修改网页内容，则修改index.html文件。&lt;/p&gt;
-
-&lt;p&gt;现在网页正常显示了。&lt;/p&gt;
-
-&lt;p&gt;7 如果没有做第5步，现在做。做完后网站正常显示。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image12.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;8 上传Jupyter文件&lt;/p&gt;
-
-&lt;p&gt;所有ipynb文件都在_notebooks目录下，其中的readme要求命名格式为YYYY-MM-DD-*.ipynb，注意，很容易忘记最后一个破折号。&lt;/p&gt;
-
-&lt;p&gt;但是也有要求，第一个单元格内要以Markdown形式写：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image13.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image14.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;写完上传至_notebooks目录。如果是本地克隆文件夹，那么记得同步至github云端。&lt;/p&gt;
-
-&lt;p&gt;上传之后等待一段时间，即可在博客上看到这篇文章。&lt;/p&gt;
-
-&lt;p&gt;9 类似的，Markdown文件在_posts目录下，也能自动转换。&lt;/p&gt;
-
-&lt;p&gt;同样，有格式要求。（支持中文名）&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image15.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;当然，少一点也行，这是一个例子：&lt;/p&gt;
-
-&lt;p&gt;在_posts目录下创建正确命名的md文档，写入后保存。若在本地写好，记得同步（克隆）至云端。&lt;/p&gt;
-
-&lt;p&gt;-–&lt;/p&gt;
-
-&lt;p&gt;layout: post&lt;/p&gt;
-
-&lt;p&gt;title: “Welcome to Jekyll!”&lt;/p&gt;
-
-&lt;p&gt;-–&lt;/p&gt;
-
-&lt;p&gt;# Welcome&lt;/p&gt;
-
-&lt;p&gt;**Hello world**, this is my first Jekyll blog post.&lt;/p&gt;
-
-&lt;p&gt;I hope you like it!&lt;/p&gt;
-
-&lt;p&gt;10 此外，_docs还能转换docx文件，方法类似。&lt;/p&gt;
-
-&lt;p&gt;将文档上传至/_docs目录下即可。&lt;/p&gt;
-
-&lt;p&gt;11 删帖，删除上述文件即可。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;遇到的坑：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1、md文档可以转博客，但是rst文档好像不行。解决方案，将rst文件重命名时后缀改为md。&lt;/p&gt;
-
-&lt;p&gt;2、若上传多个文档，其中一个报错，同批所有文档都不显示。故每次上传一个文档为佳，利于排查。每个文档生成网页的时间大约在2分钟左右。需要等待至Action成绿色√才表示完成，可以查看网页。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image16.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;3、可加载网页图片，但不能加载本地图片（文档中自带的图片）。例如下图方式添加的图片不能显示。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/laojiuketang/assets/img/2020-04-14-fastpages汉化版使用说明/media/image17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">1 登录自己的github账户，访问：https://github.com/EasonQYS/fastpagesJupyter ，找到下面这个蓝色的字并点击，</summary></entry><entry><title type="html">欢迎（ms Word）</title><link href="/laojiuketang/2020/04/13/%E6%AC%A2%E8%BF%8E-MS-Word.html" rel="alternate" type="text/html" title="欢迎（ms Word）" /><published>2020-04-13T00:00:00-05:00</published><updated>2020-04-13T00:00:00-05:00</updated><id>/laojiuketang/2020/04/13/%E6%AC%A2%E8%BF%8E(MS-Word)</id><content type="html" xml:base="/laojiuketang/2020/04/13/%E6%AC%A2%E8%BF%8E-MS-Word.html">&lt;p&gt;欢迎你&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">老九课堂 练成高手 超越学霸 前 言 “六脉神剑”是金庸武侠小说《天龙八部》中的武功，堪称大理段氏乃至金庸武学世界中最具杀伤力之无上神功，由大理开国皇帝段思平所创。 “六脉神剑”，并非真剑，是以浑厚内力为基础，将六种内力由指尖隔空激发出去，有质无形，是一套将剑意转化为剑气的高深武学。出剑时剑气急如电闪，迅猛绝伦；以气走剑杀人于无形，堪称剑中无敌。 数学中的“六脉神剑”，是我们高中教材中没有的内容，但可以用高中知识推导并使用。学好它，不仅能解决高中的数学中难度较大的问题，而且能快速解答有关高考试题，让你在高考的千军万马中过关斩将，脱颖而出，金榜题名。 剑法名称 【少商剑】剑路雄劲，颇有石破天惊之势</summary></entry><entry><title type="html">欢迎（ms Word）</title><link href="/laojiuketang/2020/04/13/%E6%AC%A2%E8%BF%8E-MS-Word.html" rel="alternate" type="text/html" title="欢迎（ms Word）" /><published>2020-04-13T00:00:00-05:00</published><updated>2020-04-13T00:00:00-05:00</updated><id>/laojiuketang/2020/04/13/%E6%AC%A2%E8%BF%8E(MS-Word)</id><content type="html" xml:base="/laojiuketang/2020/04/13/%E6%AC%A2%E8%BF%8E-MS-Word.html">&lt;p&gt;欢迎你&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;欢迎你&lt;/strong&gt;&lt;/p&gt;
 
