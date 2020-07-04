@@ -6,11 +6,11 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: 中文博客模板
-description: 便捷实用的Jupyter博客网站。此外，还支持 Word 文档，以及 Markdown。
-github_username: EasonQYS  # 你的用户名
+title: 老九课堂
+description: QQ:
+github_username:   laojiuclass# 你的用户名
 # you can comment the below line out if your repo name is not different than your baseurl
-github_repo: "fastpagesJupyter" #你的仓库名
+github_repo: "laojiuketang" #你的仓库名
 
 # OPTIONAL: override baseurl and url if using a custom domain 可选项，如果你有自己的域名，并且需要绑定到该网站
 # Note: leave out the trailing / from this value.  写下域名，不要在最后加斜杠/ 
@@ -40,7 +40,7 @@ baseurl: "/fastpagesJupyter" # the subpath of your site, e.g. "/blog".网站子�
 minima:
   social_links:
     twitter: 
-    github: EasonQYS
+    github: 
 
 # Set this to true to get LaTeX math equation support 显示LaTeX数学符号
 use_math: true
