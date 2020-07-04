@@ -3,5 +3,5 @@ layout: page
 title: 关于我
 permalink: /about/
 ---
-![](images/webwxgetmsgimg (1).jpg "蒋老师")
+![]({{site.baseurl}}images/webwxgetmsgimg (1).jpg "蒋老师")
 &emsp;&emsp;致力于高中教育教学的实践与研究三十余载，在《中学数学教学研究》等杂志上发表过多篇教育教学论文。在广东某省重点中学任教期间，荣获广东省优秀教师荣誉，在珠海恩溢教育集团任职时曾得到原国家教委主任朱开轩的称赞：后生有为。其教育格言是：为教育鞠躬尽瘁，为学生蜡烛成灰
