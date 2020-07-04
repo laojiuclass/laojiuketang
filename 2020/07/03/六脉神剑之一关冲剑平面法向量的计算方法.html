@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>六脉神剑之一关冲剑平面法向量的计算方法 | 老九课堂</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="六脉神剑之一关冲剑平面法向量的计算方法" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="老九课堂 练成高手 超越学霸 前 言 “六脉神剑”是金庸武侠小说《天龙八部》中的武功，堪称大理段氏乃至金庸武学世界中最具杀伤力之无上神功，由大理开国皇帝段思平所创。 “六脉神剑”，并非真剑，是以浑厚内力为基础，将六种内力由指尖隔空激发出去，有质无形，是一套将剑意转化为剑气的高深武学。出剑时剑气急如电闪，迅猛绝伦；以气走剑杀人于无形，堪称剑中无敌。 数学中的“六脉神剑”，是我们高中教材中没有的内容，但可以用高中知识推导并使用。学好它，不仅能解决高中的数学中难度较大的问题，而且能快速解答有关高考试题，让你在高考的千军万马中过关斩将，脱颖而出，金榜题名。 剑法名称 【少商剑】剑路雄劲，颇有石破天惊之势" />
+<meta property="og:description" content="老九课堂 练成高手 超越学霸 前 言 “六脉神剑”是金庸武侠小说《天龙八部》中的武功，堪称大理段氏乃至金庸武学世界中最具杀伤力之无上神功，由大理开国皇帝段思平所创。 “六脉神剑”，并非真剑，是以浑厚内力为基础，将六种内力由指尖隔空激发出去，有质无形，是一套将剑意转化为剑气的高深武学。出剑时剑气急如电闪，迅猛绝伦；以气走剑杀人于无形，堪称剑中无敌。 数学中的“六脉神剑”，是我们高中教材中没有的内容，但可以用高中知识推导并使用。学好它，不仅能解决高中的数学中难度较大的问题，而且能快速解答有关高考试题，让你在高考的千军万马中过关斩将，脱颖而出，金榜题名。 剑法名称 【少商剑】剑路雄劲，颇有石破天惊之势" />
+<link rel="canonical" href="/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html" />
+<meta property="og:url" content="/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html" />
+<meta property="og:site_name" content="老九课堂" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-03T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"老九课堂 练成高手 超越学霸 前 言 “六脉神剑”是金庸武侠小说《天龙八部》中的武功，堪称大理段氏乃至金庸武学世界中最具杀伤力之无上神功，由大理开国皇帝段思平所创。 “六脉神剑”，并非真剑，是以浑厚内力为基础，将六种内力由指尖隔空激发出去，有质无形，是一套将剑意转化为剑气的高深武学。出剑时剑气急如电闪，迅猛绝伦；以气走剑杀人于无形，堪称剑中无敌。 数学中的“六脉神剑”，是我们高中教材中没有的内容，但可以用高中知识推导并使用。学好它，不仅能解决高中的数学中难度较大的问题，而且能快速解答有关高考试题，让你在高考的千军万马中过关斩将，脱颖而出，金榜题名。 剑法名称 【少商剑】剑路雄劲，颇有石破天惊之势","@type":"BlogPosting","headline":"六脉神剑之一关冲剑平面法向量的计算方法","dateModified":"2020-07-03T00:00:00-05:00","datePublished":"2020-07-03T00:00:00-05:00","url":"/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html","mainEntityOfPage":{"@type":"WebPage","@id":"/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/laojiuketang/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/laojiuketang/feed.xml" title="老九课堂" /><link rel="shortcut icon" type="image/x-icon" href="/laojiuketang/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>六脉神剑之一关冲剑平面法向量的计算方法 | 老九课堂</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="六脉神剑之一关冲剑平面法向量的计算方法" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="老九课堂 练成高手 超越学霸 前 言 “六脉神剑”是金庸武侠小说《天龙八部》中的武功，堪称大理段氏乃至金庸武学世界中最具杀伤力之无上神功，由大理开国皇帝段思平所创。 “六脉神剑”，并非真剑，是以浑厚内力为基础，将六种内力由指尖隔空激发出去，有质无形，是一套将剑意转化为剑气的高深武学。出剑时剑气急如电闪，迅猛绝伦；以气走剑杀人于无形，堪称剑中无敌。 数学中的“六脉神剑”，是我们高中教材中没有的内容，但可以用高中知识推导并使用。学好它，不仅能解决高中的数学中难度较大的问题，而且能快速解答有关高考试题，让你在高考的千军万马中过关斩将，脱颖而出，金榜题名。 剑法名称 【少商剑】剑路雄劲，颇有石破天惊之势" />
+<meta property="og:description" content="老九课堂 练成高手 超越学霸 前 言 “六脉神剑”是金庸武侠小说《天龙八部》中的武功，堪称大理段氏乃至金庸武学世界中最具杀伤力之无上神功，由大理开国皇帝段思平所创。 “六脉神剑”，并非真剑，是以浑厚内力为基础，将六种内力由指尖隔空激发出去，有质无形，是一套将剑意转化为剑气的高深武学。出剑时剑气急如电闪，迅猛绝伦；以气走剑杀人于无形，堪称剑中无敌。 数学中的“六脉神剑”，是我们高中教材中没有的内容，但可以用高中知识推导并使用。学好它，不仅能解决高中的数学中难度较大的问题，而且能快速解答有关高考试题，让你在高考的千军万马中过关斩将，脱颖而出，金榜题名。 剑法名称 【少商剑】剑路雄劲，颇有石破天惊之势" />
+<link rel="canonical" href="/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html" />
+<meta property="og:url" content="/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html" />
+<meta property="og:site_name" content="老九课堂" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-03T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"老九课堂 练成高手 超越学霸 前 言 “六脉神剑”是金庸武侠小说《天龙八部》中的武功，堪称大理段氏乃至金庸武学世界中最具杀伤力之无上神功，由大理开国皇帝段思平所创。 “六脉神剑”，并非真剑，是以浑厚内力为基础，将六种内力由指尖隔空激发出去，有质无形，是一套将剑意转化为剑气的高深武学。出剑时剑气急如电闪，迅猛绝伦；以气走剑杀人于无形，堪称剑中无敌。 数学中的“六脉神剑”，是我们高中教材中没有的内容，但可以用高中知识推导并使用。学好它，不仅能解决高中的数学中难度较大的问题，而且能快速解答有关高考试题，让你在高考的千军万马中过关斩将，脱颖而出，金榜题名。 剑法名称 【少商剑】剑路雄劲，颇有石破天惊之势","@type":"BlogPosting","headline":"六脉神剑之一关冲剑平面法向量的计算方法","dateModified":"2020-07-03T00:00:00-05:00","datePublished":"2020-07-03T00:00:00-05:00","url":"/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html","mainEntityOfPage":{"@type":"WebPage","@id":"/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="/laojiuketang/feed.xml" title="老九课堂" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/laojiuketang/">老九课堂</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/laojiuketang/about/">关于我</a><a class="page-link" href="/laojiuketang/search/">查找</a><a class="page-link" href="/laojiuketang/categories/">标签</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">六脉神剑之一关冲剑平面法向量的计算方法</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-07-03T00:00:00-05:00" itemprop="datePublished">
+        Jul 3, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote>
+  <p>老九课堂 练成高手 超越学霸</p>
+
+  <p><strong>前 言</strong></p>
+
+  <p>“六脉神剑”是金庸武侠小说《天龙八部》中的武功，堪称大理段氏乃至金庸武学世界中最具杀伤力之无上神功，由大理开国皇帝段思平所创。</p>
+
+  <p>“六脉神剑”，并非真剑，是以浑厚内力为基础，将六种内力由指尖隔空激发出去，有质无形，是一套将剑意转化为剑气的高深武学。出剑时剑气急如电闪，迅猛绝伦；以气走剑杀人于无形，堪称剑中无敌。</p>
+
+  <p>数学中的“六脉神剑”，是我们高中教材中没有的内容，但可以用高中知识推导并使用。学好它，不仅能解决高中的数学中难度较大的问题，而且能快速解答有关高考试题，让你在高考的千军万马中过关斩将，脱颖而出，金榜题名。</p>
+
+  <p><strong>剑法名称</strong></p>
+
+  <p>【少商剑】剑路雄劲，颇有石破天惊之势</p>
+</blockquote>
+
+<p>【商阳剑】巧妙灵活，难以捉摸【中冲剑】大开大阖，气势雄迈【关冲剑】以拙滞古朴取胜</p>
+
+<p>【少冲剑】轻灵迅速</p>
+
+<p>【少泽剑】忽来忽去，变化精微</p>
+
+<blockquote>
+  <p>老九课堂 练成高手 超越学霸</p>
+
+  <p><strong>【六脉神剑】之一 “关冲剑” 平面法向量的计算方法</strong></p>
+
+  <p><strong>平面法向量的计算，传统的方法由于步骤多，花时间又容易出错，所以我们从另一个角</strong></p>
+
+  <p><strong>度去探讨平面法向量的求法，使计算更简洁、快速.</strong></p>
+
+  <p>在平面法向量的计算中，普遍采用的算法是设法向量为<em>n</em> = (<em>x</em>, <em>y</em>, <em>z</em>)，利用法向量和平面内不</p>
+
+  <p>共线的两个向量垂直，数量积为 0，建立关于的 <em>x</em>, <em>y</em>, <em>z</em> 的方程组，再对其中一个变量（如 <em>x</em> ）</p>
+
+  <p>取特殊值（不能取 0），计算出其他两个量，从而得到平面的法向量.</p>
+
+  <p>事实上还有另一个算法，我们先看一个引理：</p>
+
+  <p>若平面 ABC 与空间直角坐标系 <em>x</em> 轴，<em>y</em> 轴，<em>z</em> 轴的交点分别为 A(<em>a</em>,0,0),B(0,<em>b</em>,0),C(0,0, <em>c</em>)（其</p>
+
+  <p>中</p>
+</blockquote>
+
+<p><em>a</em>,<em>b</em>, <em>c</em> ≠</p>
+
+<p>0</p>
+
+<p>），则平面 ABC 的法向量</p>
+
+<p><em>n</em></p>
+
+<p>=</p>
+
+<blockquote>
+  <p></p>
+</blockquote>
+
+<p>λ </p>
+
+<p><span class="underline">1</span></p>
+
+<p><em>a</em></p>
+
+<p>,</p>
+
+<blockquote>
+  <p><span class="underline">1</span></p>
+</blockquote>
+
+<p><em>b</em></p>
+
+<p>,</p>
+
+<p><span class="underline">1</span></p>
+
+<blockquote>
+  <p><em>c</em></p>
+</blockquote>
+
+<p></p>
+
+<p></p>
+
+<p>，其中λ≠ 0 .λ的值可以根据实际需要取</p>
+
+<blockquote>
+  <p>值.</p>
+
+  <p>证明：</p>
+</blockquote>
+
+<p><em>AB</em> = (−</p>
+
+<p><em>a</em>,<em>b</em>,0)，</p>
+
+<p><em>AC</em></p>
+
+<p>=</p>
+
+<p>(−</p>
+
+<p><em>a</em>,0,</p>
+
+<p><em>c</em>)</p>
+
+<p>，所以</p>
+
+<p><em>n</em></p>
+
+<p>⋅ <em>AB</em></p>
+
+<p>=</p>
+
+<p>0</p>
+
+<p>且</p>
+
+<p><em>n</em></p>
+
+<p>⋅ <em>AC</em></p>
+
+<p>=</p>
+
+<p>0</p>
+
+<p>，取</p>
+
+<p><em>z</em></p>
+
+<blockquote>
+  <p><span class="underline">λ</span></p>
+</blockquote>
+
+<p>= ，</p>
+
+<blockquote>
+  <p><em>c</em></p>
+
+  <p>得</p>
+</blockquote>
+
+<p><em>n</em></p>
+
+<p>=</p>
+
+<blockquote>
+  <p></p>
+</blockquote>
+
+<p>λ </p>
+
+<p><span class="underline">1</span></p>
+
+<p><em>a</em></p>
+
+<p>,</p>
+
+<blockquote>
+  <p><span class="underline">1</span></p>
+</blockquote>
+
+<p><em>b</em></p>
+
+<p>,</p>
+
+<p><span class="underline">1</span></p>
+
+<blockquote>
+  <p><em>c</em></p>
+</blockquote>
+
+<p></p>
+
+<p></p>
+
+<blockquote>
+  <p>这种方法虽然简单，但是要注意以下几个问题：</p>
+
+  <p>①若平面和某条坐标轴平行，则可看做是平面和该坐标轴交点的坐标为∞ ，法向量对应于该轴的坐标为 0.如平面和 <em>x</em> 轴平行，则和 <em>x</em> 轴的交点坐标为(∞，0,0)，所以平面的法向量为</p>
+
+  <p><em>n</em></p>
+</blockquote>
+
+<p>=</p>
+
+<blockquote>
+  <p></p>
+</blockquote>
+
+<p>λ </p>
+
+<p>0,</p>
+
+<blockquote>
+  <p><span class="underline">1</span></p>
+</blockquote>
+
+<p><em>b</em></p>
+
+<p>,</p>
+
+<p><span class="underline">1</span></p>
+
+<blockquote>
+  <p><em>c</em></p>
+</blockquote>
+
+<p></p>
+
+<p></p>
+
+<p>，若平面同时和 <em>x</em>, <em>y</em> 轴都平行，则平面的法向量为</p>
+
+<p><em>n</em></p>
+
+<p>=</p>
+
+<blockquote>
+  <p></p>
+</blockquote>
+
+<p>λ </p>
+
+<p>0,0,</p>
+
+<p><span class="underline">1</span></p>
+
+<blockquote>
+  <p><em>c</em></p>
+</blockquote>
+
+<p></p>
+
+<p></p>
+
+<blockquote>
+  <p>②若平面过坐标原点，则可适当平移平面.</p>
+
+  <p>例 1 如图，以正方体顶点 D 为坐标原点，分别以</p>
+
+  <p><em>DA DC</em>、<em>DD</em></p>
+
+  <p>1</p>
+</blockquote>
+
+<p>为</p>
+
+<p><em>x</em>、<em>y</em>、<em>z</em> 轴建立空间直角坐标系，正方</p>
+
+<blockquote>
+  <p>体棱长为 1，E、F 分别为 CD、BC 的中点</p>
+
+  <p>（1）求平面</p>
+</blockquote>
+
+<p><em>AED</em> 的法向量</p>
+
+<blockquote>
+  <p>1</p>
+
+  <p>（2）求平面 <em>A</em>1 <em>AE</em> 的法向量</p>
+
+  <p>（3）求平面<em>C</em>1<em>DF</em> 的法向量</p>
+
+  <p>1</p>
+
+  <p>老九课堂 练成高手 超越学霸</p>
+
+  <p>解：（1）平面</p>
+</blockquote>
+
+<p>1</p>
+
+<p></p>
+
+<p></p>
+
+<blockquote>
+  <p><span class="underline">1</span> </p>
+</blockquote>
+
+<p>0 2，0</p>
+
+<p>，(0,0,1)，所以其法向</p>
+
+<blockquote>
+  <p>量为<em>n</em> = λ(1,2,1)，取λ= 1 ，则<em>n</em> = (1,2,1)</p>
+
+  <p><em>A</em>1 与 <em>x</em> 轴、<em>y</em> 轴的交点分别为(1,0,0)，</p>
+
+  <p>（2）平面 <em>AE</em> </p>
+
+  <p><span class="underline">1</span> </p>
+</blockquote>
+
+<p>0 2，0</p>
+
+<p>，与 <em>z</em> 轴无交点，说明平面与 <em>z</em> 轴</p>
+
+<blockquote>
+  <p>平行，所以其法向量为<em>n</em> = λ(1,2,0)，取λ= 1 ，则<em>n</em> = (1,2,0) .</p>
+
+  <p>（3）因为平面<em>C</em>1<em>DF</em> 过坐标原点，因而不能直接用定理，可先平移平面 <em>DF</em> ，即找一个平</p>
+
+  <p>面与平面<em>C</em>1<em>DF</em> 平行，取 <em>FC</em> 的中点<em>G</em> ，<em>CC</em>1 的中点 <em>H</em> ，易得平面 <em>EGH</em> // 平面<em>C</em>1<em>DF</em> .因为平</p>
+
+  <p>面 <em>EGH</em> 与 <em>x</em> 轴、 <em>y</em> 轴、<em>z</em> 轴的交点分别为</p>
+</blockquote>
+
+<p> − <span class="underline">1</span> ,0,0</p>
+
+<p>   4 </p>
+
+<p>，</p>
+
+<p></p>
+
+<p></p>
+
+<blockquote>
+  <p><span class="underline">1</span> </p>
+</blockquote>
+
+<p>0 2，0</p>
+
+<p>，</p>
+
+<p></p>
+
+<p></p>
+
+<blockquote>
+  <p><span class="underline">1</span></p>
+</blockquote>
+
+<p>0,0,− 2</p>
+
+<p></p>
+
+<p></p>
+
+<p>，所以其法向量为</p>
+
+<blockquote>
+  <p><em>n</em></p>
+</blockquote>
+
+<p>= λ(−</p>
+
+<p>4,2,−2)</p>
+
+<p>，取λ=</p>
+
+<p>−</p>
+
+<p><span class="underline">1</span></p>
+
+<blockquote>
+  <p>2</p>
+</blockquote>
+
+<p>，则<em>n</em> = (2,−1,1).</p>
+
+<blockquote>
+  <p><strong>如果平面与轴的交点不方便求，还有不有更通用的呢？这里再给同学们一个公式，设平面内</strong></p>
+
+  <p><strong>有两条不平行的直线的方向向量分别为</strong> <em>AB</em> = (<em>x</em>1, <em>y</em>1, <em>z</em>1 )<strong>和</strong> <em>AC</em> = (<em>x</em>2 , <em>y</em>2 , <em>z</em>2 )</p>
+
+  <p><strong>则平面的法向量</strong></p>
+</blockquote>
+
+<p><em>n</em></p>
+
+<p>=</p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<blockquote>
+  <p><em>y</em></p>
+
+  <p>1</p>
+</blockquote>
+
+<p><em>y</em></p>
+
+<blockquote>
+  <p>2</p>
+
+  <p><em>z</em></p>
+
+  <p>1</p>
+</blockquote>
+
+<p><em>z</em></p>
+
+<blockquote>
+  <p>2</p>
+</blockquote>
+
+<p>,−</p>
+
+<blockquote>
+  <p><em>x</em></p>
+
+  <p>1</p>
+</blockquote>
+
+<p><em>x</em></p>
+
+<blockquote>
+  <p>2</p>
+
+  <p><em>z</em></p>
+
+  <p>1</p>
+</blockquote>
+
+<p><em>z</em></p>
+
+<blockquote>
+  <p>2</p>
+</blockquote>
+
+<p>,</p>
+
+<blockquote>
+  <p><em>x</em></p>
+
+  <p>1</p>
+</blockquote>
+
+<p><em>x</em></p>
+
+<blockquote>
+  <p>2</p>
+
+  <p><em>y</em></p>
+
+  <p>1</p>
+</blockquote>
+
+<p><em>y</em></p>
+
+<blockquote>
+  <p>2</p>
+</blockquote>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p>=</p>
+
+<p>(<em>y</em>1</p>
+
+<p>⋅</p>
+
+<p><em>z</em>2</p>
+
+<p>−</p>
+
+<p><em>y</em>2</p>
+
+<p>⋅</p>
+
+<p><em>z</em> ，−</p>
+
+<blockquote>
+  <p>1</p>
+</blockquote>
+
+<p><em>x</em></p>
+
+<blockquote>
+  <p>1</p>
+</blockquote>
+
+<p>⋅</p>
+
+<p><em>z</em>2</p>
+
+<p>+</p>
+
+<p><em>x</em></p>
+
+<blockquote>
+  <p>2</p>
+</blockquote>
+
+<p>⋅</p>
+
+<p><em>z</em> ，<em>x</em></p>
+
+<blockquote>
+  <p>1 1</p>
+</blockquote>
+
+<p>⋅</p>
+
+<p><em>y</em>2</p>
+
+<p>−</p>
+
+<p><em>x</em></p>
+
+<blockquote>
+  <p>2</p>
+</blockquote>
+
+<p>⋅</p>
+
+<p><em>y</em></p>
+
+<blockquote>
+  <p>1</p>
+</blockquote>
+
+<p>)</p>
+
+<blockquote>
+  <p><strong>（证明从略）</strong></p>
+
+  <p>E D</p>
+
+  <p>例 2. 如图，多面体 <em>ABCDE</em> 中，四边形 <em>ABDE</em> 是</p>
+
+  <p>平行四边 <em>AB</em> = <em>BC</em> = <em>BD</em> = 2 , <em>AD</em> = <em>DC</em> =   6 . C</p>
+
+  <p>∠<em>CAB</em> = 300</p>
+
+  <p>（1）证明：平面</p>
+</blockquote>
+
+<p><em>ACD</em> ⊥ 平面 <em>ABC</em></p>
+
+<p>A</p>
+
+<p>B</p>
+
+<blockquote>
+  <p>（2）求<em>CE</em> 与平面 <em>ABD</em> 所成角的正弦值</p>
+
+  <p>解析：（1）取 <em>AC</em> 的中点<em>O</em> ，由 <em>AB</em> = <em>BC</em> = <em>BD</em> = 2 ,</p>
+
+  <p><em>AD</em> = <em>DC</em> =   6 得<em>OB</em> ⊥ <em>AC</em>,<em>OD</em> ⊥ <em>AC</em> .</p>
+
+  <p>又∠<em>CAB</em> = 300 ，所以<em>OB</em> = 1,<em>OA</em> = <em>OC</em> =   3 ,从而<em>OD</em> =   3 .</p>
+
+  <p>在∆<em>DOB</em> 中，有<em>OD</em>2 + <em>OB</em>2 = <em>BD</em>2 ,所以<em>OD</em> ⊥ <em>OB</em> .</p>
+
+  <p>又 <em>AC</em>,<em>OB</em> ⊂ 面 <em>ABC</em> ,且 <em>AC</em> <em>OB</em> = <em>O</em> ,所以<em>OD</em> ⊥ 面 <em>ABC</em> .</p>
+
+  <p>2</p>
+
+  <p>老九课堂 练成高手 超越学霸</p>
+
+  <p>又<em>OD</em> ⊂ 面 <em>ADC</em> ,所以平面 <em>ACD</em> ⊥ 平面 <em>ABC</em> .</p>
+
+  <p>（2）由（1）可建立如图所示的空间直角坐标系，由已知可得：</p>
+
+  <p><em>C</em>(−   3,0,0)， <em>A</em>( 3,0,0), <em>B</em>(0,1,0), <em>D</em>(0,0, 3 ) z</p>
+
+  <p>则<em>CD</em> = ( 3,0, 3 ), <em>BA</em> = ( 3,−1,0), <em>BD</em> = (0,−1, 3 ) E D</p>
+
+  <p>因为 <em>DE</em> = <em>BA</em> = ( 3,−1,0)<strong>(九阳神功之</strong>【<strong>移影换位</strong>】<strong>）</strong> C</p>
+
+  <p>所以<em>CE</em> = <em>CD</em> + <em>DE</em> = (2 3,−1, 3 ) O</p>
+
+  <p>设平面 <em>ABD</em> 的法向量为 x A B</p>
+
+  <p><em>n</em></p>
+</blockquote>
+
+<p>=</p>
+
+<blockquote>
+  <p></p>
+</blockquote>
+
+<p>λ </p>
+
+<blockquote>
+  <p></p>
+</blockquote>
+
+<p>−1</p>
+
+<p>−1</p>
+
+<p>0</p>
+
+<blockquote>
+  <p>3</p>
+</blockquote>
+
+<p>,−</p>
+
+<blockquote>
+  <p>3</p>
+</blockquote>
+
+<p>0</p>
+
+<p>0</p>
+
+<blockquote>
+  <p>3</p>
+</blockquote>
+
+<p>,</p>
+
+<blockquote>
+  <p>3</p>
+</blockquote>
+
+<p>0</p>
+
+<p>−1</p>
+
+<p>−1</p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p>= λ(−</p>
+
+<p>3,3,−</p>
+
+<p>3</p>
+
+<p>)</p>
+
+<p>y</p>
+
+<blockquote>
+  <p>取λ=</p>
+</blockquote>
+
+<p>−</p>
+
+<p>1</p>
+
+<blockquote>
+  <p>3</p>
+</blockquote>
+
+<p>得<em>n</em> = (1,−</p>
+
+<p>3,1)<strong>（偷天换日）</strong></p>
+
+<blockquote>
+  <p>设直线<em>CE</em> 与平面 <em>ABD</em> 所成的角为θ，则</p>
+</blockquote>
+
+<p>sinθ=</p>
+
+<blockquote>
+  <p><em>n</em></p>
+</blockquote>
+
+<p><em>n</em></p>
+
+<p>⋅</p>
+
+<p>⋅</p>
+
+<p><em>CE</em></p>
+
+<blockquote>
+  <p><em>CE</em></p>
+</blockquote>
+
+<p>=</p>
+
+<blockquote>
+  <p>2</p>
+</blockquote>
+
+<p>4 ×</p>
+
+<p>3</p>
+
+<blockquote>
+  <p>5</p>
+</blockquote>
+
+<p>=</p>
+
+<blockquote>
+  <p>15</p>
+</blockquote>
+
+<p>10</p>
+
+<p>.</p>
+
+<blockquote>
+  <p>所以直线<em>CE</em> 与平面 <em>ABD</em> 所成角的正弦值为</p>
+
+  <p>15 .</p>
+</blockquote>
+
+<p>10</p>
+
+<blockquote>
+  <p>3</p>
+</blockquote>
+
+  </div><a class="u-url" href="/laojiuketang/2020/07/03/%E5%85%AD%E8%84%89%E7%A5%9E%E5%89%91%E4%B9%8B%E4%B8%80%E5%85%B3%E5%86%B2%E5%89%91%E5%B9%B3%E9%9D%A2%E6%B3%95%E5%90%91%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/laojiuketang/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/laojiuketang/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/laojiuketang/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>微信公众号：九章算术</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
