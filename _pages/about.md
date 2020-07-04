@@ -4,12 +4,4 @@ title: 关于我
 permalink: /about/
 ---
 
-这是 *About（关于）* 页面。 像其他页面一样, 这是用[Markdown](https://guides.github.com/features/mastering-markdown/)格式书写的。
-
-此网站由 **[fastpages](https://github.com/fastai/fastpages)** [^1]提供**技术**支持。
-
-此网站由 **[EasonQYS](https://github.com/EasonQYS/fastpagesJupyter)** [^2]提供**汉化**支持。
-
-[^1]:一个除了普通格式外还支持Jupyter的博客。
-
-[^2]:第一个中文汉化版本。
+&emsp;&emsp;致力于高中教育教学的实践与研究三十余载，在《中学数学教学研究》等杂志上发表过多篇教育教学论文。在广东某省重点中学任教期间，荣获广东省优秀教师荣誉，在珠海恩溢教育集团任职时曾得到原国家教委主任朱开轩的称赞：后生有为。其教育格言是：为教育鞠躬尽瘁，为学生蜡烛成灰
